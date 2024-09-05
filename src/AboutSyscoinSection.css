@@ -1,0 +1,47 @@
+.about-syscoin {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .about-syscoin h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .highlight {
+    color: #0056f7; 
+  }
+  
+  .about-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #111;
+    border: 1px solid #333; 
+    padding: 20px;
+    width: 250px; 
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .card-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #a9b9ff;
+  }
+  

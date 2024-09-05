@@ -1,0 +1,37 @@
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #000;
+    color: white;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .feature img {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .features-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 40px 10px;
+    background-color: #000; 
+    gap: 5px;
+  }
+  

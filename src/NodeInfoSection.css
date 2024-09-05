@@ -1,0 +1,92 @@
+.node-info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .info-box {
+    flex: 1;
+    max-width: 30%;
+    margin-right: 20px;
+  }
+  
+  .info-box h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .highlight-primary {
+    color: #a9b9ff; /* Color for "Rewards" and "Governance" */
+  }
+  
+  .highlight-secondary {
+    color: #fdbd38; /* Color for "Finality" and "Decentralized" */
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info-box p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .learn-more {
+    font-size: 1rem;
+    color: #a9b9ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: inline-block;
+  }
+  
+  .learn-more:hover {
+    color: #fdbd38;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
+  }
+  
+  .circle-image-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px; /* Increased size of the circle */
+    height: 250px; /* Increased size of the circle */
+  }
+  
+  .circle-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .circle-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .number {
+    font-size: 3rem; 
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 1rem; 
+    margin-top: 5px;
+  }
+  
